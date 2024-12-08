@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="src/output.css">
+    <!-- montagu google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- montagu google font -->
+</head>
+<body class="bg-black text-white font-manrope">
+   <Section id="navbar">
+        <nav class="container mx-auto flex justify-between items-center py-8">
+
+            <div>
+                <h1 class="sm:text-3xl font-bold cursor-pointer">LOGO</h1>
+            </div>
+            <div class="hidden sm:block">
+                <ul class="flex justify-between items-center ">
+                    <li class="mx-8"><a class="text-sm font-medium hover:text-button-color transition-colors duration-200 cursor-pointer" href="#">Home</a></li>
+                    <li class="mx-8"><a class="text-sm font-medium hover:text-button-color transition-colors duration-200 cursor-pointer" href="#">About Me</a></li>
+                    <li class="mx-8"><a class="text-sm font-medium hover:text-button-color transition-colors duration-200 cursor-pointer" href="#">Projects</a></li>
+                    <li class="mx-8"><a class="text-sm font-medium hover:text-button-color transition-colors duration-200 cursor-pointer" href="#">Testimonials</a></li>
+                    <li class="mx-8"><button class="px-5 py-2 bg-button-color rounded-lg text-xl hover:bg-opacity-90 transition-all">Download CV</button></li>
+                    
+                </ul>
+            </div>
+            <div id="mb_menu" class="sm:hidden">
+                <img class="mb-0.5 w-6" src="src/asset/Vector.png" alt="">
+                <img class="mb-0.5 w-4 ml-2" src="src/asset/Vector.png" alt="">
+                <img class="mb-0.5 w-6" src="src/asset/Vector.png" alt="">
+                <img class="mb-0.5 w-4 ml-2" src="src/asset/Vector.png" alt="">
+              
+            </div>
+
+            
+        </nav>
+        <div id="mobile_menu" class="bg-gray-400 py-5 hidden">
+            <ul class=" ">
+                <li class="mx-8 my-2"><a class="text-sm font-medium hover:text-button-color transition-colors duration-200 cursor-pointer" href="#">Home</a></li>
+                <li class="mx-8 my-2"><a class="text-sm font-medium hover:text-button-color transition-colors duration-200 cursor-pointer" href="#">About Me</a></li>
+                <li class="mx-8 my-2"><a class="text-sm font-medium hover:text-button-color transition-colors duration-200 cursor-pointer" href="#">Projects</a></li>
+                <li class="mx-8 my-2"><a class="text-sm font-medium hover:text-button-color transition-colors duration-200 cursor-pointer" href="#">Testimonials</a></li>
+                <li class="mx-8 my-2"><button class="w-full h-10 bg-button-color rounded-lg text-xl hover:bg-opacity-90 transition-all">Download CV</button></li>
+                
+            </ul>
+        </div>
+   </Section>
+
+   <section id="home">
+    <div class="container mx-auto px-4 sm:px-0">
+        <div class="flex sm:flex-row flex-col justify-between items-center">
+            
+            <!-- Image -->
+            <div class="w-full sm:w-auto max-sm:mb-6">
+                <img src="./src/asset/personal_img.png" alt="Md Shamiul Islam" class="w-full h-auto">
+            </div>
+
+            <!-- Content -->
+            <div class="w-full sm:w-[600px]">
+                <h5 class="text-sm mt-8 sm:mt-0">Web developer</h5>
+                <h1 class="sm:text-5xl text-3xl font-extrabold font-montagu my-4 leading-tight capitalize">
+                    HI! This<br> 
+                    is <span class="text-button-color">Md Shamiul Islam</span>
+                </h1>
+
+                <p class="font-light text-base sm:text-sm my-4 leading-relaxed">
+                    As a web designer with four years of experience, I specialize in creating visually appealing and user-friendly websites. 
+                    My expertise includes responsive design, UI/UX principles, and collaborating with clients to bring their visions to life.
+                </p>
+
+                <div class="flex flex-wrap gap-5 mt-6">
+                    <button class="px-5 py-2 bg-button-color rounded-lg text-xl text-black hover:bg-opacity-90 transition-all">
+                        Let’s Connect
+                    </button>
+                    <button class="px-8 py-2 bg-black rounded-lg text-xl text-white flex items-center gap-4 hover:bg-gray-800 transition-all">
+                        View Portfolios 
+                        <span>
+                            <img src="src/asset/Arrow 7.png" alt="Arrow">
+                        </span> 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="specialities">
+    <div class="container mx-auto py-5">
+        <div class="text-center mb-5">
+            <h2 class="sm:text-sm text-base leading-relaxed py-3">SPECIALITIES</h2>
+            <H3 class="sm:text-3xl font-bold py-3">MY SPECIALITIES</H3>
+            <P class="sm:text-sm text-base leading-relaxed">As a web designer with four years of experience, I specialize in creating visually appealing<br> and user-friendly websites. </P>
+        </div>
+
+     <div class="flex gap-1 justify-between items-start flex-wrap">
+        <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+            <div>
+                <picture>
+                    <img src="./src/asset/Web development.png" alt="">
+                </picture>
+            </div>
+            <div>
+                <h2 class="sm:text-xl py-4 font-bold text-base">Front-End Development</h2>
+                <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+        </div>
+        <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+            <div>
+                <picture>
+                    <img src="./src/asset/fi_12884741.png" alt="">
+                </picture>
+            </div>
+            <div>
+                <h2 class="sm:text-xl py-4 font-bold text-base">Back-End Development</h2>
+                <p class="sm:text-sm text-base font-light leading-relaxed ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.       
+                       
+                </p>
+            </div>
+        </div>
+        <div class="sm:w-[280px] w-[200px]  p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+            <div class="">
+                <picture>
+                    <img  src="./src/asset/fi_12884741.png" alt="">
+                </picture>
+            </div>
+            <div>
+                <h2 class="sm:text-xl py-4 font-bold text-base">Full-Stack Development       </h2>
+                <p class="sm:text-sm text-base font-light leading-relaxed ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+        </div>
+        <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+            <div>
+                <picture>
+                    <img src="./src/asset/fi_1149171.png" alt="">
+                </picture>
+            </div>
+            <div>
+                <h2 class="sm:text-xl py-4 font-bold text-base">Web Application Security</h2>
+                <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+        </div>
+        <div class="sm:w-[280px] max-sm:hidden b p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+            <div>
+                <picture>
+                    <img src="./src/asset/fi_14666949.png" alt="">
+                </picture>
+            </div>
+            <div>
+                <h2 class="sm:text-xl py-4 font-bold text-base">E-commerce Development</h2>
+                <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+        </div>
+        <div class="w-[280px] max-md:hidden p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+            <div>
+                <picture>
+                    <img src="./src/asset/fi_2316109.png" alt="">
+                </picture>
+            </div>
+            <div>
+                <h2 class="sm:text-xl py-4 font-bold text-base">Cloud-Based Development</h2>
+                <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+        </div>
+        <div class="w-[280px]  max-sm:hidden p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+            <div>
+                <picture>
+                    <img src="./src/asset/Group.png" alt="">
+                </picture>
+            </div>
+            <div>
+                <h2 class="sm:text-xl py-5 font-bold text-base">Progressive Web Apps</h2>
+                <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+        </div>
+        <div class="w-[280px] max-sm:hidden p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+            <div>
+                <picture>
+                    <img src="./src/asset/fi_12133548.png" alt="">
+                </picture>
+            </div>
+            <div>
+                <h2 class="sm:text-xl py-4 font-bold text-base">AI-Powered Development</h2>
+                <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+        </div>
+     </div>
+
+    </div>
+
+</section>
+
+<section id="recent work">
+    <div class="container mx-auto py-2">
+        <div class="text-center mb-5">
+            <h2 class="sm:text-sm text-base leading-relaxed py-3">RECENT WORKS</h2>
+            <h3 class="sm:text-3xl font-bold py-3 capitalize">MY RECENT WORKS</h3>
+            <P class="sm:text-sm text-base leading-relaxed">As a web designer with four years of experience, I specialize in creating<br> visually appealing and user-friendly websites. My expertise includes responsive design.</P>
+        </div>
+        <div class="sm:flex  justify-center items-center gap-3 sm:flex-wrap">
+            <div class="sm:w-[350px] w-full sm:mb-0 mb-3 sm:h-[300px]">
+                <img class="rounded-sm" src="src/asset/web-template-website-design-concept.jpg" alt="">
+            </div>
+            <div class="sm:w-[350px] w-full sm:mb-0 mb-3 sm:h-[300px]">
+                <img class="rounded-sm" src="src/asset/web-template-website-design-concept.jpg" alt="">
+            </div>
+            <div class="sm:w-[350px] w-full sm:mb-0 mb-3 sm:h-[300px]">
+                <img class="rounded-sm" src="src/asset/web-template-website-design-concept.jpg" alt="">
+            </div>
+            <div class="sm:w-[350px] w-full sm:mb-0 mb-3 sm:h-[300px]">
+                <img class="rounded-sm" src="src/asset/web-template-website-design-concept.jpg" alt="">
+            </div>
+            <div class="sm:w-[350px] w-full sm:mb-0 mb-3 sm:h-[300px]">
+                <img class="rounded-sm" src="src/asset/web-template-website-design-concept.jpg" alt="">
+            </div>
+            <div class="sm:w-[350px] w-full sm:mb-0 mb-3 sm:h-[300px]">
+                <img class="rounded-sm" src="src/asset/web-template-website-design-concept.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="service">
+    <div class="container mx-auto py-5">
+        <div class="text-center mb-5">
+            <h2 class="sm:text-sm text-base leading-relaxed py-3">SERVICES</h2>
+            <H3 class="sm:text-3xl font-bold py-3">MY OTHER SERVICES</H3>
+            <P class="sm:text-sm text-base leading-relaxed">As a web designer with four years of experience, I specialize in creating visually appealing<br> and user-friendly websites. </P>
+        </div>
+        <div class=" flex gap-1 justify-between items-start flex-wrap" >
+            <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+               
+                <div>
+                    <h2 class="sm:text-xl py-4 font-bold text-base">Front-End Development</h2>
+                    <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+               
+                <div>
+                    <h2 class="sm:text-xl py-4 font-bold text-base">Front-End Development</h2>
+                    <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+               
+                <div>
+                    <h2 class="sm:text-xl py-4 font-bold text-base">Front-End Development</h2>
+                    <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+               
+                <div>
+                    <h2 class="sm:text-xl py-4 font-bold text-base">Front-End Development</h2>
+                    <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+               
+                <div>
+                    <h2 class="sm:text-xl py-4 font-bold text-base">Front-End Development</h2>
+                    <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+               
+                <div>
+                    <h2 class="sm:text-xl py-4 font-bold text-base">Front-End Development</h2>
+                    <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+               
+                <div>
+                    <h2 class="sm:text-xl py-4 font-bold text-base">Front-End Development</h2>
+                    <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="sm:w-[280px] w-[200px] p-5 flex flex-col justify-center items-center text-center bg-gray-800 my-5 rounded-sm">
+               
+                <div>
+                    <h2 class="sm:text-xl py-4 font-bold text-base">Front-End Development</h2>
+                    <p class="sm:text-sm text-base font-light leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="faq_section">
+    <div class="container mx-auto py-5">
+        <div class="mb-5">
+            <h2 class="sm:text-sm text-base">FAQ's</h2>
+            <h class="capitalize sm:text-3xl text-2xl "> FREQUENTLY ASKED QUESTION </h>
+        </div>
+
+        <div class="bg-gray-800 mb-2">
+            <button class="w-full text-left p-4 font-semibold  flex justify-between items-center gap-2" onclick="toggleFAQ(1)">
+                What areas of web development do you focus on?
+                <span id="icon-1" class="text-xl"></span>
+            </button>
+            <div id="faq-1" class="p-4  hidden">
+                I specialize in web development, creating websites that deliver unique user experiences.
+            </div>
+        </div>
+        <div class="bg-gray-800 mb-2">
+            <button class="w-full text-left p-4 font-semibold  flex justify-between items-center  gap-2" onclick="toggleFAQ(2)">
+                How can I schedule a web development consultation with you?
+                <span id="icon-2" class="text-xl">+</span>
+            </button>
+            <div id="faq-2" class="p-4  hidden">
+                I specialize in web development, creating websites that deliver unique user experiences.
+            </div>
+        </div>
+        <div class="bg-gray-800 mb-2">
+            <button class="w-full text-left p-4 font-semibold  flex justify-between items-center  gap-2" onclick="toggleFAQ(3)">
+                Can I choose a specific platform for my website?
+                <span id="icon-3" class="text-xl">+</span>
+            </button>
+            <div id="faq-3" class="p-4  hidden">
+                I specialize in web development, creating websites that deliver unique user experiences.
+            </div>
+        </div>
+        <div class="bg-gray-800 mb-2">
+            <button class="w-full text-left p-4 font-semibold  flex justify-between items-center  gap-2" onclick="toggleFAQ(4)">
+                What tools and technologies do you use for web development?
+                <span id="icon-4" class="text-xl">+</span>
+            </button>
+            <div id="faq-4" class="p-4  hidden">
+                I specialize in web development, creating websites that deliver unique user experiences.
+            </div>
+        </div>
+        <div class="bg-gray-800 mb-2">
+            <button class="w-full text-left p-4 font-semibold  flex justify-between items-center  gap-2" onclick="toggleFAQ(5)">
+                Can I choose a specific platform for my website?
+                <span id="icon-5" class="text-xl">+</span>
+            </button>
+            <div id="faq-5" class="p-4  hidden">
+                I specialize in web development, creating websites that deliver unique user experiences.
+            </div>
+        </div>
+       
+
+    </div>
+</section>
+
+<section id="footer_container">
+    <div class="container mx-auto mb-3 mt-20 ">
+       <div class="flex justify-between max-sm:flex-wrap">
+        <div>
+            <li class="mb-4 text-xl text-gray-400 list-none">SOLUTIONS</li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+        </div>
+        <div>
+            <li class="mb-4 text-xl text-gray-400 list-none">SOLUTIONS</li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+        </div>
+        <div>
+            <li class="mb-4 text-xl text-gray-400 list-none">SOLUTIONS</li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+        </div>
+        <div>
+            <li class="mb-4 text-xl text-gray-400 list-none">SOLUTIONS</li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+        </div>
+        <div>
+            <li class="mb-4 text-xl text-gray-400 list-none">SOLUTIONS</li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+        </div>
+        <div>
+            <li class="mb-4 text-xl text-gray-400 list-none">SOLUTIONS</li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">GLINTOPIA</a></li>
+            <li class="list-none text-sm font-bold "><a href="#">FLUXWAY</a></li>
+        </div>
+       </div>
+
+        <div class="mt-32 border-t-2 border-gray-300 py-4">
+            <div class="flex justify-between">
+                <p class="sm:text-xl text-balance font-medium ">Terms & Conditions  Privacy Policy</p>
+                <p class="sm:text-xl text-balance font-medium ">© 2024 All rights reserved.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+   <script src="script.js"></script>
+</body>
+</html>
